@@ -1395,7 +1395,7 @@
     align-items: flex-start;
 
 }
-.Contact__header-container-form form{
+.Contact__header-container-form > form{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1561,7 +1561,7 @@
 }
 .Footer__permalinks a:hover{
       cursor: pointer;
-      color:blue;
+      color:orange;
 }
 .Footer__copyright p{
     display: flex;

@@ -6,11 +6,14 @@ import Banner from "../../components/Home/Banner"
 import Promotion from '../../components/Home/Promotion'
 import Places from '../../components/Home/Places'
 import Contact from '../../components/Home/Contact'
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
 import "./home.css"
 
 const Home = () => {
   return (
     <div>
+      <Navbar/>
       <MainHeader />
       <Store />
       <Feature />
@@ -18,6 +21,7 @@ const Home = () => {
       <Promotion />
       <Places />
       <Contact />
+      <Footer/>
     </div>
   )
 }

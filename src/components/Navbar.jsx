@@ -23,8 +23,8 @@ const Navbar = () => {
                     })
                     }
                 </ul>
-                <Link to= "/Sign In" className="Nav__header-content-sign">Sign In</Link>  
-                <Link to= "/Log In" className="Nav__header-content-log">Log In</Link>     
+                <Link to= "/signup" className="Nav__header-content-sign">SignUp</Link>  
+                <Link to= "/login" className="Nav__header-content-log">Login</Link>     
             <button className="Navbar__container-button">
            <FaBars />
         </button>
